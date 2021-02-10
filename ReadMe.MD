@@ -1,5 +1,9 @@
 # AutomationPractice.com Testing Suite With TestCafe
 
+This testing suite was built with [TestCafe](https://devexpress.github.io/testcafe/).
+
+![alt text](https://raw.githubusercontent.com/DevExpress/testcafe/master/media/testcafe-logo.svg?sanitize=true "testcafe")
+
 ## Description:
 
 _The purpose of this test suite is to demonstrate using TestCafe to create functional web tests on the website AutomationPractice.com_
