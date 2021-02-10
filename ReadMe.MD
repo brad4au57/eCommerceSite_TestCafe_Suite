@@ -2,7 +2,7 @@
 
 ## Description:
 
-\*The purpose of this test suite is to demonstrate using TestCafe to create functional web tests on the website AutomationPractice.com
+_The purpose of this test suite is to demonstrate using TestCafe to create functional web tests on the website AutomationPractice.com_
 
 ## Tests:
 
