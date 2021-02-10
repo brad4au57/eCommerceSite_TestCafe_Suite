@@ -27,7 +27,7 @@ cd eCommerceSite_TestCafe_Suite
 npm install
 ```
 
-Then, to run one of the following `test` commands to try it out:
+Then, to run one of the following `test` commands, try out one or all of the following:
 
 ```sh
 // To run the smoke test
