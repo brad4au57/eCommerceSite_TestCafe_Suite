@@ -31,11 +31,11 @@ Then, to run one of the following `test` commands, try out one or all of the fol
 
 ```sh
 // To run the smoke tests
-npm run test:smoketest
+__npm run test:smoketest__
 
 // To run the sanity tests
-npm run test:sanity
+**npm run test:sanity**
 
 // To run the end-to-end regression tests
-npm run test:end2end
+**npm run test:end2end**
 ```
