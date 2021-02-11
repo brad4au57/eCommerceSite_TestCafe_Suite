@@ -30,12 +30,12 @@ npm install
 Then, to run one of the following `test` commands, try out one or all of the following:
 
 ```sh
-// To run the smoke tests
-__npm run test:smoketest__
+# To run the smoke tests
+npm run test:smoketest
 
-// To run the sanity tests
-**npm run test:sanity**
+# To run the sanity tests
+npm run test:sanity
 
-// To run the end-to-end regression tests
-**npm run test:end2end**
+# To run the end-to-end regression tests
+npm run test:end2end
 ```
