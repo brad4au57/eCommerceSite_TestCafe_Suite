@@ -21,7 +21,7 @@ In creating this framework using TestCafe, I have written simple test cases for 
 If you'd like to try out this TestCafe suite, follow the steps below.
 
 ```sh
-// Open terminal and enter the following commands
+# Open terminal and enter the following commands
 git clone https://github.com/brad4au57/eCommerceSite_TestCafe_Suite.git
 cd eCommerceSite_TestCafe_Suite
 npm install
@@ -30,12 +30,12 @@ npm install
 Then, to run one of the following `test` commands, try out one or all of the following:
 
 ```sh
-// To run the smoke tests
+# To run the smoke tests
 npm run test:smoketest
 
-// To run the sanity tests
+# To run the sanity tests
 npm run test:sanity
 
-// To run the end-to-end regression tests
+# To run the end-to-end regression tests
 npm run test:end2end
 ```
