@@ -18,7 +18,7 @@ In creating this framework using TestCafe, I have written simple test cases for 
 
 ## Running this test in your local:
 
-If you'd like to try out this testcafe suite, follow the steps below.
+If you'd like to try out this TestCafe suite, follow the steps below.
 
 ```sh
 // Open terminal and enter the following commands
@@ -30,12 +30,12 @@ npm install
 Then, to run one of the following `test` commands, try out one or all of the following:
 
 ```sh
-// To run the smoke test
+// To run the smoke tests
 npm run test:smoketest
 
-// To run the sanity test
+// To run the sanity tests
 npm run test:sanity
 
-// To run the end-to-end regression test
+// To run the end-to-end regression tests
 npm run test:end2end
 ```

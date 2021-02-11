@@ -1,0 +1,35 @@
+{
+  "name": "ecommercesite_testcafe_suite",
+  "version": "1.0.0",
+  "description": "A Sample Test Suite Using TestCafe",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:sanity": "testcafe chrome:headless,edge:headless tests/homePage_Sanity.js -s path=screenshots/sanity_output,takeOnFails=true",
+    "test:smoketest": "testcafe chrome:headless,edge:headless tests/userSignIn_SmokeTest.js -s path=screenshots/smoketest_output,takeOnFails=true",
+    "test:end2end": "testcafe chrome:headless tests/checkout_End2End.js -s path=screenshots/end2end_output,takeOnFails=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad4au57/eCommerceSite_TestCafe_Suite.git"
+  },
+  "keywords": [
+    "TestCafe",
+    "Automation",
+    "Sanity",
+    "Smoke",
+    "Test",
+    "Regression"
+  ],
+  "author": "Brad Bales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brad4au57/eCommerceSite_TestCafe_Suite/issues"
+  },
+  "homepage": "https://github.com/brad4au57/eCommerceSite_TestCafe_Suite#readme",
+  "devDependencies": {
+    "testcafe": "^1.10.1"
+  }
+}
