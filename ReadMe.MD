@@ -21,7 +21,7 @@ In creating this framework using TestCafe, I have written simple test cases for 
 If you'd like to try out this TestCafe suite, follow the steps below.
 
 ```sh
-// Open terminal and enter the following commands
+# Open terminal and enter the following commands
 git clone https://github.com/brad4au57/eCommerceSite_TestCafe_Suite.git
 cd eCommerceSite_TestCafe_Suite
 npm install
