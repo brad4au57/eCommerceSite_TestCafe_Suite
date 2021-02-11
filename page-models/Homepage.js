@@ -5,8 +5,9 @@ class Homepage {
         this.headerBanner = Selector('#header > div.banner');
         this.headerNav = Selector('#header > div.nav');
         this.headerLogo = Selector('#header_logo');
+        this.headerSignIn = Selector('#header > div.nav > div > div > nav > div.header_user_info > a');
         this.searchBar = Selector('#search_query_top');
-        this.shoppingCart = Selector('#header > div:nth-child(3) > div > div > div:nth-child(3) > div > a');
+        this.shoppingCart = Selector('.login').withText('Sign in');
         this.menuBar = Selector('#block_top_menu > ul');
         this.hp_ImageSlider = Selector('#homepage-slider');
         this.hp_SalesInfo = Selector('#htmlcontent_top');
